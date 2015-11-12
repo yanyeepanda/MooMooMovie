@@ -1,0 +1,2 @@
+Feature B- Group 4
+For part 3, you will design and implement a feature that allows customers to buy movie tickets. Customers must be able to search for all movies by entering a searching string (i.e. family movies), returning a listing, select a movie to book their tickets, and then complete the booking (for this part, just 'confirming' a purchase will suffice -- there is no need to emulate a payment system). Customers can request for purchases to be cancelled, and administrators only can approve a booking cancellation request.

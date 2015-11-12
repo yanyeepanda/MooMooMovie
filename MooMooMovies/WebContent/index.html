@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Welcome to Moo Moo Movies</h1>
+	<a href="/MooMooMovies/MooMooMovie?command=MooMooMovie">Buy a
+		Ticket</a>
+	<br>
+	<h3>Retrieve a Ticket</h3>
+	<form action="ticket" method="post">
+		<input type="hidden" name="command" value="Ticket"> Ticket ID:
+		<input type="text" name="ticketId"> <input type="submit"
+			value="Submit">
+	</form>
+	<br>
+	<a href="/MooMooMovies/login?command=Login">Staff Login</a>
+</body>
+</html>
